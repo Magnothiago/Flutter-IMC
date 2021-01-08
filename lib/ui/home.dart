@@ -4,7 +4,9 @@ class Home extends StatefulWidget {
   @override
   _HomeState createState() => _HomeState();
 }
-
+/*
+@Autor Thiago Furtado
+ */
 class _HomeState extends State<Home> {
   TextEditingController _controleIdade = new TextEditingController();
   TextEditingController _controlePeso = new TextEditingController();
@@ -130,19 +132,6 @@ class _HomeState extends State<Home> {
                         fontSize: 20),
                   ),
                 ),
-                Padding(
-                    padding: const EdgeInsets.all(9.0),
-                    child: Row(
-                        //mainAxisAlignment: MainAxisAlignment.spaceAround,
-                        children: <Widget>[
-                      Text(
-                        'Autor: Thiago Magno Santos Furtado',
-                        style: TextStyle(
-                            color: Colors.black,
-                            fontWeight: FontWeight.w500,
-                            fontStyle: FontStyle.italic),
-                      )
-                    ]))
               ],
             )
           ],
