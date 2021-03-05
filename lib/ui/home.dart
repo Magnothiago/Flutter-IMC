@@ -4,6 +4,7 @@ class Home extends StatefulWidget {
   @override
   _HomeState createState() => _HomeState();
 }
+
 /*
 @Autor Thiago Furtado
  */
@@ -13,7 +14,6 @@ class _HomeState extends State<Home> {
   TextEditingController _controleAltura = new TextEditingController();
 
   double resultado = 0.0;
-  String _resultadoFinal = '';
   String _resultadoConsulta = '';
 
   void calcularIMC() {
